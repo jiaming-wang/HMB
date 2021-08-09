@@ -87,18 +87,18 @@ class downsample:
          
     
 if __name__ == '__main__':
-    image_size = 256
+    image_size = 128
     scale = 4
-    ms_pach = r'/Users/wjmecho/Desktop/Non-pan/数据/gf2/dataset/modcrop/ms/'
-    ms_image_path = r'./ms'
-    pan_pach = r'/Users/wjmecho/Desktop/Non-pan/数据/gf2/dataset/modcrop/pan/'
-    pan_image_path = r'./pan'
+    ms_pach = r'./ms/'
+    ms_image_path = r'./ms1'
+    pan_pach = r'./pan/'
+    pan_image_path = r'./pan1'
     
     # downsample pan image
-    # pan_path = '/Users/wjmecho/Desktop/Non-pan/数据/gf2/dataset/pan/'
-    # pans_path = '/Users/wjmecho/Desktop/Non-pan/数据/gf2/dataset/pan1/'
+    # pan_path = '/Users/wjmecho/Downloads/'
+    # pans_path = './'
     # for i in range(1,2):
-    #     img_pan = os.path.join(pan_path, str(i)+'.tif')
+    #     img_pan = os.path.join(pan_path, 'pan.tif')
     #     img_pans = os.path.join(pans_path, str(i)+'.tif')
     #     downsample(img_pan, scale, img_pans)
 
